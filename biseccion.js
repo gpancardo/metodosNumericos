@@ -66,8 +66,90 @@ let ecuacionEvaluada;
 
 function recogerGrado(){
     let gradoUsuario= document.getElementById("ingresarGrado").value;
-    parseInt(gradoUsuario);
-    
+    gradoUsuario=parseInt(gradoUsuario);
+    //+ Encontrar forma de sólo mostrar los campos que se van a usar sin React
+
+}
+/*
+function recogerDatos(){
+    switch(gradoUsuario){
+        case 1:
+            x1= document.getElementById("grado1").value;
+            break;
+        case 2:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            break;
+        case 3:
+            x1=document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+        case 4:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            break;
+        case 5:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            x5= document.getElementById("grado5").value;
+            break;
+        case 6:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            x5= document.getElementById("grado5").value;
+            x6= document.getElementById("grado6").value;
+            break;
+        case 7:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            x5= document.getElementById("grado5").value;
+            x6= document.getElementById("grado6").value;
+            x7= document.getElementById("grado7").value;
+            break;
+        case 8:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            x5= document.getElementById("grado5").value;
+            x6= document.getElementById("grado6").value;
+            x7= document.getElementById("grado7").value;
+            x8= document.getElementById("grado8").value;
+            break;
+        case 9:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            x5= document.getElementById("grado5").value;
+            x6= document.getElementById("grado6").value;
+            x7= document.getElementById("grado7").value;
+            x8= document.getElementById("grado8").value;
+            x9= document.getElementById("grado9").value;
+            break;
+        case 10:
+            x1= document.getElementById("grado1").value;
+            x2= document.getElementById("grado2").value;
+            x3= document.getElementById("grado3").value;
+            x4= document.getElementById("grado4").value;
+            x5= document.getElementById("grado5").value;
+            x6= document.getElementById("grado6").value;
+            x7= document.getElementById("grado7").value;
+            x8= document.getElementById("grado8").value;
+            x9= document.getElementById("grado9").value;
+            x10= document.getElementById("grado10").value;
+            break;
+    }*/
+    for (let i = 0; i < gradoUsuario; i++){
+
+    }
 }
 
-function recogerDatos():
